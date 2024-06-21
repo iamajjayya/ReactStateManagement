@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import './App.css'
 import UseReducerex from './Components/UseReducerex';
+import UserForm from './Components/UseReducerex';
 
 
 function NameList() {
@@ -51,9 +52,10 @@ function Counter() {
  function App () {
    return (
     <>
-     <Counter />
-     <NameList />
+     {/* <Counter />
+     <NameList /> */}
      <UseReducerex />    
+     
       </>
 
 
