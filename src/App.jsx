@@ -2,11 +2,12 @@
 
 import { useState } from 'react'
 import './App.css'
+import UseReducerex from './Components/UseReducerex';
 
 
 function NameList() {
   const [list,setList] = useState(["Jack","Jill","John"]);
-  const [name,setName] = useState('' )
+  const [name,setName] = useState("")
 
 
   const addName = () => {
@@ -52,7 +53,7 @@ function Counter() {
     <>
      <Counter />
      <NameList />
-    
+     <UseReducerex />    
       </>
 
 
